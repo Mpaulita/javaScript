@@ -31,6 +31,25 @@ let frutas=["apple","orange","watermelon","grape"]
 for (let i=0; i<frutas.length; i++){
     console.log(frutas[i])
 }
-// For-In
 
-// For-Of
+// For-In -> OBJETOS
+const listCompras={
+    yuca:5,
+    arroz:43,
+    papa:34,
+    zanahoria:23
+}
+
+for(lista1 in listCompras){
+    console.log(lista1);
+}
+// Concatenar
+for(lista1 in listCompras){
+    console.log(`${lista1}: ${listCompras[lista1]}`);
+}
+
+// For-Of -> ARREGLOS
+let listaCompras= ["Frijol","Carne","Leche","Pulpa"]
+for (lista2 of listaCompras){
+    console.log(lista2)
+}
