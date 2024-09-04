@@ -18,7 +18,7 @@ let simbolo= Symbol() // no cambia en todo el programa
 
 // Estructuras de datos
 // ARRAYS
-let escuderias= ["red bull","hass","alpine","ferrari"]
+let escuderias= ["red bull","hass","alpine","ferrari","mercedes","mclaren","williams","kick","racing bulls","aston martin"]
 console.log(escuderias)
 console.log(escuderias.length)
 
